@@ -1,0 +1,53 @@
+// Place your settings in this file to overwrite the default settings
+{
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": false,
+
+    "editor.fontSize": 16,
+    // "editor.fontFamily": "Source Code Pro Light",
+
+    // see https://github.com/VSCodeVim/Vim/pull/2269
+    "vim.useCtrlKeys": true,
+    "vim.handleKeys": {
+      "<C-d>": true
+    },
+    
+    "files.associations": {
+        "*.mkd": "markdown",
+        "*.ejs": "html",
+        "*.vue": "vue"
+    },
+    // Git Bash
+    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+    "editor.cursorStyle": "block",
+    "window.zoomLevel": 0,
+
+    // New window
+    "window.newWindowDimensions": "inherit",
+    "window.openFilesInNewWindow": "on",
+    "window.openFoldersInNewWindow": "on",
+
+    // wordwrap
+    "editor.wordWrap": "on",
+    "workbench.iconTheme": "vs-minimal",
+    // "editor.multiCursorModifier": "ctrlCmd",
+
+    // standardjs
+    "javascript.validate.enable": false,
+    "files.insertFinalNewline": true,
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.activityBar.visible": true,
+    "git.autofetch": true,
+
+    // tabs
+    "[markdown]": {
+      "editor.tabSize": 4
+    },
+
+    // proxy
+    "http.proxy": "http://127.0.0.1:1080",
+    "http.proxyStrictSSL": false,
+
+    "editor.minimap.enabled": false
+  }

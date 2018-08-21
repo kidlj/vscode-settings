@@ -1,0 +1,37 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+{
+    "key": "ctrl+,",
+    "command": "editor.action.outdentLines",
+    "when": "editorTextFocus && !editorReadonly"
+},{
+    "key": "ctrl+.",
+    "command": "editor.action.indentLines",
+    "when": "editorTextFocus && !editorReadonly"
+},
+{
+    "key": "ctrl+shift+e",
+    "command": "workbench.action.quickOpen"
+},
+{
+    "key": "ctrl+e",
+    "command": "-workbench.action.quickOpen"
+},
+{
+    "key": "ctrl+p",
+    "command": "-workbench.action.quickOpen"
+},
+{
+  "key": "ctrl+f",
+  "command": "-workbench.action.terminal.focusFindWidget",
+  "when": "terminalFocus"
+},
+{
+  "key": "alt+f",
+  "command": "actions.find"
+},
+{
+  "key": "ctrl+f",
+  "command": "-actions.find"
+}
+]
